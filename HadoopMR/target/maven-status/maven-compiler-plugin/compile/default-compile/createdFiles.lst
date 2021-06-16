@@ -1,6 +1,7 @@
 com\hadoopEx\reducer\WordCountReducer.class
 com\hadoopEx\reducer\DelayCountReducer.class
 com\hadoopEx\counter\DelayCounters.class
+com\hadoopEx\reducer\DelayCountReducerWithMultipleOutputs.class
 com\hadoopEx\mapper\DelayCountMapper.class
 com\hadoopEx\driver\DelayCount.class
 com\hadoopEx\driver\ArrivalDelayCount.class
@@ -10,5 +11,7 @@ com\hadoopEx\mapper\ArrivalDelayCountMapper.class
 com\hadoopEx\common\AirlinePerfomanceParser.class
 com\hadoopEx\driver\DelayCountWithCounter.class
 com\hadoopEx\mapper\DepartureDelayCountMapper.class
+com\hadoopEx\driver\DelayCountWithMultipleOutputs.class
 com\hadoopEx\driver\WordCount.class
 com\hadoopEx\mapper\DelayCountMapperWithCounter.class
+com\hadoopEx\mapper\DelayCountMapperWithMultipleOutputs.class
