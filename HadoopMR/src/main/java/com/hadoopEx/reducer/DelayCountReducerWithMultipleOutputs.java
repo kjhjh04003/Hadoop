@@ -36,4 +36,10 @@ public class DelayCountReducerWithMultipleOutputs extends Reducer<Text, IntWrita
 		mos = new MultipleOutputs<Text, IntWritable>(context);
 	}
 
+	@Override
+	protected void cleanup(Reducer<Text, IntWritable, Text, IntWritable>.Context context)
+			throws IOException, InterruptedException {
+		mos.close();
+	}
+
 }
